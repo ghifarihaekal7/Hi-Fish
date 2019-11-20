@@ -1,5 +1,7 @@
 {
   "name": "hi-fish",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>{{ location.province }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-card padding>
+      <h3>Lokasi : {{ location.name }}</h3>
+      <p>Provinsi : {{ location.province }}</p>
+    </ion-card>
+    <div #map id="map"></div>
+  </ion-content>
